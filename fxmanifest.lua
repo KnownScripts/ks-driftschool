@@ -1,5 +1,7 @@
 fx_version 'cerulean'
 games { 'rdr3', 'gta5' }
+author 'KnownScripts'
+description 'Driftschool by KnownScripts'
 
 dependencies {
     "PolyZone",
