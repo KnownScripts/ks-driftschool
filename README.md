@@ -30,4 +30,6 @@ end
 
 * Nopixel Taskbar or your own
 
+* QBCore Framework or your own
+
 
