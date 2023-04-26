@@ -11,7 +11,7 @@ AddEventHandler('np-driftschool:takemoney', function(data)
         TriggerClientEvent('np-driftschool:tookmoney', src, true)
     else
         --TriggerClientEvent('DoLongHudText', src, 'You dont have enough money to do that little bitch.', 2)
-        QBCore.Functions.Notify('Sul pole piisavalt raha')
+        QBCore.Functions.Notify('You dont have enough money')
     end
 end)
 
