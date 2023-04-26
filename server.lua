@@ -6,7 +6,7 @@ AddEventHandler('np-driftschool:takemoney', function(data)
     local price = data
 	if money >= data then
         --user:removeMoney(data)
-        user.Functions.RemoveMoney('bank', data, "carking")
+        user.Functions.RemoveMoney('bank', data, "Repair")
         --exports['ks-pank']:removeAccountMoney(Player.PlayerData, data, "Vehicle Repair")
         TriggerClientEvent('np-driftschool:tookmoney', src, true)
     else
