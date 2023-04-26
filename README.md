@@ -3,7 +3,7 @@
 Repaired driftschool from NoPixel out of adamant to cerulean
 
 
-# What to do to make it work
+# To make it work
 
 * Add drawtxt3D into your framework functions
 
@@ -24,5 +24,10 @@ function QBCore.Functions.DrawText3D(x,y,z, text)
 end
 
 ```
+
+
+# Depedencies
+
+* Nopixel Taskbar or your own
 
 
